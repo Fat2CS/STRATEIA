@@ -16,7 +16,10 @@ const Header = () => {
             <Link to="/" className="text-gray-600 hover:text-blue-600">
               Accueil
             </Link>
-            <Link to="/tarifs" className="text-gray-600 hover:text-blue-600">
+            <Link
+              to="./PrincingPages"
+              className="text-gray-600 hover:text-blue-600"
+            >
               Tarifs
             </Link>
             <a href="#about" className="text-gray-600 hover:text-blue-600">
